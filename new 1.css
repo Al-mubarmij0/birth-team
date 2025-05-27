@@ -1,0 +1,15 @@
+.Welcome{
+	background-color:#f8f4e3;
+	padding: 40px 20px;
+	text-align: center;
+	font-family: 'segoe UI', Tahoma;
+	color: #333;
+}
+.Welcome h1{
+	font-size: 2.8rem;
+	margin-bottom: 10px;
+}
+.Welcome{
+	font-size: 1.2rem;
+	color:#666;
+}
