@@ -1,3 +1,4 @@
+- Mohammed Mubarak Sani - NAS/STE/21/1004 - 
 - Muhammad Umar Faruk-NAS/STE/21/1008 - Navigation bar
 - Kabir Muhammad-NAS/STE/21/1019 - Added Header
 - Muhammad Yusuf Isa - NAS/STE/21/1015 - Special Dish Titile and Description
@@ -8,3 +9,4 @@
 - Rabiu Dalhatu-NAS/STE/21/1010  - Banner Cards 1
 - Sani Abdullahi Gumbi-NAS/STE/21/1016 - Banner Cards 2
 -  Rabiatu Bishir-NAS/STE/21/1026	- Banner Cards (3)
+-  Idris Abdulmalik Abdulwahab-NAS/STE/21/1007 - chef section 
