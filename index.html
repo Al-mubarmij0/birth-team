@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Web Design Mastery | Foodman</title>
 </head>
 <body>
@@ -169,6 +178,140 @@
       </div>
 
     </section>
+    <section class="chef" id="chef">
+      <img src="assets/topping.png" alt="topping" class="chef__bg" />
+      <div class="section__container chef__container">
+        <div class="chef__image">
+          <img src="assets/chef.png" alt="chef" />
+        </div>
+        <div class="chef__content">
+          <h2 class="section__header">Cooked By The Best Chefs In The World</h2>
+          <p class="section__description">
+            Experience culinary excellence crafted by master chefs from around
+            the globe. Our team of culinary virtuosos brings together expertise,
+            innovation, and passion to create unforgettable dining experiences
+            that redefine gastronomy.
+          </p>
+          <ul class="chef__list">
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Savour culinary brilliance from master chefs worldwide.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Experience innovative creations with attention to detail.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Enjoy dishes crafted with an unwavering passion for perfection.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What Our Customers Are Saying</h2>
+      <p class="section__description">
+        Discover firsthand experiences and testimonials from our valued patrons.
+        Explore the feedback and reviews that showcase our commitment to
+        quality, service, and customer satisfaction.
+      </p>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  FoodMan's culinary expertise never fails to impress! Every
+                  dish is a masterpiece, bursting with flavor and freshness.
+                </p>
+                <img src="assets/client-1.jpg" alt="client" />
+                <h4>Moham sani</h4>
+                <h5>Business Executive</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  I always turn to FoodMan for a quick and delicious meal. Their
+                  efficient service and mouthwatering options never disappoint!
+                </p>
+                <img src="assets/client-2.jpg" alt="client" />
+                <h4>Mubarak Mohammed </h4>
+                <h5>Food Blogger</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  FoodMan has become my go-to for all my catering needs. Their
+                  attention to detail and exceptional customer service make
+                  every event a success.
+                </p>
+                <img src="assets/client-3.jpg" alt="client" />
+                <h4>Sani Sani</h4>
+                <h5>Event Planner</h5>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#">Food<span>man</span></a>
+          </div>
+          <p class="section__description">
+            Embark on a gastronomic journey with FoodMan, where every bite tells
+            a story and every dish is crafted to perfection.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">Meal Deals</a></li>
+            <li><a href="#">Catering Options</a></li>
+            <li><a href="#">Seasonal Offerings</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Nutrition Information</a></li>
+            <li><a href="#">Allergen Information</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
 
     
 </body>
